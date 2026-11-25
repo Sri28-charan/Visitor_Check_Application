@@ -22,7 +22,7 @@ namespace Visitor_Check_Application.Controllers
 		public async Task<IActionResult> GetDivisions()
 		{
 			var divisions = await _divisionService.GetAllDivisionsAsync();
-			return Ok(divisions
+			return Ok(divisions);
 		}
 	}
 }
